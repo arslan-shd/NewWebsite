@@ -1,0 +1,17 @@
+/* .Product__image {
+  /* background: url(./images/RunningShoe1.png); */
+
+/* width: 200px;
+  height: 200px; */
+
+.Product__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+  background: linear-gradient(#f0f0f0, #fff) padding-box,
+    linear-gradient(45deg, #a6147354, #05f2f25e) border-box;
+  border: 0.93px solid transparent;
+  border-radius: 18.5123px 18.5123px 0px 0px;
+}
