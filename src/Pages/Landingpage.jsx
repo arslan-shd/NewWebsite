@@ -5,11 +5,12 @@ import Navbar from "../Components/Navbar";
 import Products from "../Components/Products";
 import { Stack } from "@mui/material";
 import { Box } from "@mui/material";
-import "./LandingPage.css";
+import background from "../Components/BG.jpg";
+// import "./LandingPage.css";
 
 const Landingpage = () => {
   return (
-    <div className="background">
+    <div style={{ background: `url(${background})`, width: "100%" }}>
       <Stack direction="row" justifyContent="center">
         <Box width="80%">
           <Navbar />
