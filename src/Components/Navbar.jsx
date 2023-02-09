@@ -8,9 +8,15 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <Box width="100%" sx={{ py: "20px" }}>
+    <Box
+      width="100%"
+      sx={{
+        py: "20px",
+        fontSize: { xl: "20px", md: "16px", sm: "10px", xs: "8px" },
+      }}
+    >
       <Stack direction="row" justifyContent="space-between">
-        <img src="./images/logo.png" alt="logo" />
+        <img src="./images/logo.png" alt="logo" height={45} />
         <Box sx={{ width: "40%" }}>
           <Stack
             direction="row"

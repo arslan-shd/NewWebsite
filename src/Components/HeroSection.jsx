@@ -49,13 +49,6 @@ const HeroSection = () => {
               Shop Now
             </Button>
           </Box>
-          <span style={{ position: "relative", left: "-30px" }}>
-            <img
-              src="./images/Aeroplane.png"
-              // style={{ position: "relative", left: "-30px" }}
-            />
-            4.3
-          </span>
         </Stack>
         <Box component="img" src="./images/BigShoe.png" />
       </Stack>
