@@ -45,10 +45,24 @@ const ShopNavBar = () => {
           </Stack>
         </Box>
         <Box>
-          <Stack direction="row" alignItems="center" gap="20px">
-            <SearchIcon />
-            <input type="text" />
-          </Stack>
+          <Box
+            sx={{
+              background: "#fff",
+              padding: "15px 40px 15px 20px",
+              boxShadow: `0px 2px 5px rgba("38, 51, 77, 0.03")`,
+              borderRadius: "30px",
+              color: "#C3CAD9",
+            }}
+          >
+            <Stack direction="row" alignItems="center" gap="10px">
+              <SearchIcon />
+              <input
+                placeholder="Search Transactions and Documents"
+                type="text"
+                style={{ border: "none" }}
+              />
+            </Stack>
+          </Box>
         </Box>
         <Box>
           <Stack direction="row" alignItems="center" gap="20px">
