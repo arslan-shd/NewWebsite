@@ -8,7 +8,10 @@ import { Button } from "@mui/material";
 const HeroSection = () => {
   return (
     <Box width="100%" sx={{ pt: "40px" }}>
-      <Stack direction="row" justifyContent="space-around">
+      <Stack
+        direction={{ xs: "column", lg: "row" }}
+        justifyContent="space-around"
+      >
         <Stack direction="column" justifyContent="center" alignItems="center">
           <Box>
             <Typography

@@ -11,7 +11,7 @@ import background from "../Components/BG.jpg";
 const Landingpage = () => {
   return (
     <div style={{ background: `url(${background})`, width: "100%" }}>
-      <Stack direction="row" justifyContent="center">
+      <Stack direction={{ xs: "column", lg: "row" }} justifyContent="center">
         <Box width="80%">
           <Navbar />
           <HeroSection />
