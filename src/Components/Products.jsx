@@ -5,7 +5,11 @@ import ProductData from "../ProductData";
 
 const Products = () => {
   return (
-    <Stack direction="row" justifyContent="space-between">
+    <Stack
+      direction={{ xs: "column", lg: "row" }}
+      justifyContent="space-between"
+      alignItems="center"
+    >
       {ProductData.map((product) => (
         <SingleProduct product={product} />
       ))}

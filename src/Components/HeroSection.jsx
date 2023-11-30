@@ -7,10 +7,11 @@ import { Button } from "@mui/material";
 
 const HeroSection = () => {
   return (
-    <Box width="100%" sx={{ pt: "40px" }}>
+    <Box marginBottom="2rem" width="100%" sx={{ pt: "40px" }}>
       <Stack
         direction={{ xs: "column", lg: "row" }}
         justifyContent="space-around"
+        alignItems="center"
       >
         <Stack direction="column" justifyContent="center" alignItems="center">
           <Box>
@@ -53,7 +54,7 @@ const HeroSection = () => {
             </Button>
           </Box>
         </Stack>
-        <Box component="img" src="./images/BigShoe.png" />
+        <Box maxWidth="100%" component="img" src="./images/BigShoe.png" />
       </Stack>
     </Box>
   );
